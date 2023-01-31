@@ -6,8 +6,8 @@ import twitter from "../../public/twitter.svg";
 import github from "../../public/github.svg";
 const Header = () => {
   return (
-    <nav className="pl-[20px] pr-[20px] pt-[10px] pb-[10px] sticky top-0 left-0 h-[64px] backdrop-blur-lg w-full">
-      <div className="max-w-[1280px] m-auto">
+    <nav className="pl-[20px] max-w-[1280px] m-auto pr-[20px] pt-[10px] pb-[10px] sticky top-0 left-0 h-[64px] backdrop-blur-lg w-full z-20">
+      <div className="">
         <div className="flex justify-between items-center">
           <div className="p-[10px] hover:bg-[#ff03] rounded-[4px]">
             <Link href="/">

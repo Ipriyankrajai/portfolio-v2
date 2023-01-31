@@ -14,3 +14,27 @@ body{
 .manrope{
   font-family: 'Manrope', sans-serif;
 }
+p{
+  hyphens: auto;
+}
+
+.i--sc{
+  cursor: pointer;
+}
+.i--sc-short{
+  display: block;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.i--sc-long{
+  display: none;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 4px;
+}
+.i--sc:hover .i--sc-short{
+  display: none;
+}
+.i--sc:hover .i--sc-long{
+  display: block;
+}
