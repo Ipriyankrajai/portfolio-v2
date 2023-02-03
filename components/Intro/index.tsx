@@ -8,11 +8,11 @@ const Intro = () => {
     <section id="intro">
       <div className="min-h-[80vh] flex flex-col justify-center relative">
         <h1 className="text-[3em] md:text-[4em] lg:text-[5em] xl:text-[6em] lexend font-black z-10 w-[90%]">
-          Hello, I am <span className="text-[#FFFF00]">Priyank.</span>
+          Hello, I&#x27;am <span className="text-[#FFFF00]">Priyank.</span>
         </h1>
         <h2 className="manrope text-[1em] sm:text-[20px] xl:text-[22px] w-[90%]">
-          Based in India, I'm a full-stack developer passionate about building
-          accessible web apps that users love.
+          Based in India, I&apos;m a full-stack developer passionate about
+          building accessible web apps that users love.
         </h2>
         {/* <div className="absolute right-0">
         <Image
@@ -27,6 +27,7 @@ const Intro = () => {
             <a
               href="https://www.linkedin.com/in/priyank-rajai-806983117/"
               target="_blank"
+              rel="noreferrer"
               className="pl-[16px] pr-[16px] pt-[8px] pb-[8px] flex justify-end items-center gap-1 text-[#FFFF00] i--sc"
             >
               <span className="i--sc-short">In</span>
@@ -38,6 +39,7 @@ const Intro = () => {
             <a
               href="https://twitter.com/priyank_web"
               target="_blank"
+              rel="noreferrer"
               className="pl-[16px] pr-[16px] pt-[8px] pb-[8px] flex justify-end items-center gap-1 text-[#FFFF00] i--sc"
             >
               <span className="i--sc-short">Tw</span>
@@ -49,6 +51,7 @@ const Intro = () => {
             <a
               href="https://github.com/Ipriyankrajai"
               target="_blank"
+              rel="noreferrer"
               className="pl-[16px] pr-[16px] pt-[8px] pb-[8px] flex justify-end items-center gap-1 text-[#FFFF00] i--sc"
             >
               <span className="i--sc-short">Git</span>
@@ -60,6 +63,7 @@ const Intro = () => {
             <a
               href="mailto:priyankrajai97@gmail.com"
               target="_blank"
+              rel="noreferrer"
               className="pl-[16px] pr-[16px] pt-[8px] pb-[8px] flex justify-end items-center gap-1 text-[#FFFF00] i--sc"
             >
               <span className="i--sc-short">@</span>
