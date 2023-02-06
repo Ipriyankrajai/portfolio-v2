@@ -8,7 +8,7 @@ const Intro = () => {
     <section id="intro">
       <div className="min-h-[80vh] flex flex-col justify-center relative">
         <h1 className="text-[3em] md:text-[4em] lg:text-[5em] xl:text-[6em] lexend font-black z-10 w-[90%]">
-          Hello, I&#x27;am <span className="text-[#FFFF00]">Priyank.</span>
+          Hello, I am <span className="text-[#FFFF00]">Priyank.</span>
         </h1>
         <h2 className="manrope text-[1em] sm:text-[20px] xl:text-[22px] w-[90%]">
           Based in India, I&apos;m a full-stack developer passionate about
