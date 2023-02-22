@@ -7,13 +7,15 @@ const Intro = () => {
   return (
     <section id="intro">
       <div className="min-h-[80vh] flex flex-col justify-center relative">
-        <h1 className="text-[3em] md:text-[4em] lg:text-[5em] xl:text-[6em] lexend font-black z-10 w-[90%]">
-          Hello, I am <span className="text-[#FFFF00]">Priyank.</span>
-        </h1>
-        <h2 className="manrope text-[1em] sm:text-[20px] xl:text-[22px] w-[90%]">
-          Based in India, I&apos;m a full-stack developer passionate about
-          building accessible web apps that users love.
-        </h2>
+        <div data-aos="fade-right">
+          <h1 className="text-[3em] md:text-[4em] lg:text-[5em] xl:text-[6em] lexend font-black z-10 w-[90%]">
+            Hello, I am <span className="text-[#FFFF00]">Priyank.</span>
+          </h1>
+          <h2 className="manrope text-[1em] sm:text-[20px] xl:text-[22px] w-[90%]">
+            Based in India, I&apos;m a full-stack developer passionate about
+            building accessible web apps that users love.
+          </h2>
+        </div>
         {/* <div className="absolute right-0">
         <Image
         src={grayscaleImag}
@@ -22,7 +24,7 @@ const Intro = () => {
         height={400}
         />
       </div> */}
-        <div className="absolute right-0 z-10">
+        <div className="absolute right-0 z-10" data-aos="fade-left">
           <div className="flex flex-col">
             <a
               href="https://www.linkedin.com/in/priyank-rajai-806983117/"
